@@ -1,0 +1,60 @@
+#include <iostream>
+#include <string.h>
+#include <cstdlib>
+
+using namespace std;
+
+struct osoba {
+    string tytul;
+    string rezyser;
+    int rok;
+    string gatunek;
+    
+   
+} film;
+
+int main(){
+
+{
+    osoba pierwszy;
+    struct pierwszy ;
+
+    pierwszy.tytul = "Joker";
+        pierwszy.rezyser = "Todd Phillips";
+            pierwszy.rok =  2019;
+            	pierwszy.gatunek = "dramat psychologiczny";
+
+
+
+    cout << "film1:" <<endl <<"Tytul: "<< pierwszy.tytul <<endl<< "Rezyser: "<< pierwszy.rezyser<< endl<<"Rok: "<<pierwszy.rok<<endl<<"Gatunek: "<<pierwszy.gatunek;
+}
+    
+{
+    osoba drugi;
+    struct drugi ;
+    
+    drugi.tytul = "1917";
+        drugi.rezyser = "Sam Mendes";
+            drugi.rok =  2019;
+            	drugi.gatunek = "film wojenny";
+  
+          
+    cout << "film2:" <<endl <<"Tytul: "<< drugi.tytul <<endl<< "Rezyser: "<< drugi.rezyser<< endl<<"Rok: "<<drugi.rok<<endl<<"Gatunek: "<<drugi.gatunek;
+    
+}
+
+{
+    osoba trzeci;
+    struct trzeci ;
+
+    trzeci.tytul = "Green Book";
+        trzeci.rezyser = "Peter Farrelly";
+            trzeci.rok =  2018;
+            	trzeci.gatunek = "komediodramat";
+
+
+
+    cout << "film3:" <<endl <<"Tytul: "<< trzeci.tytul <<endl<< "Rezyser: "<< trzeci.rezyser<< endl<<"Rok: "<<trzeci.rok<<endl<< "Gatunek: "<<trzeci.gatunek<<endl;
+}
+
+    return 0;
